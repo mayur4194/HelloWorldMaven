@@ -17,7 +17,11 @@
   </properties>
   
 <distributionManagement>
-<repository>
+  <repository>
+    <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///var/lib/jenkins/myartifacts/</url>
+  <repository>
     <id>releases</id>
     <!-- CHANGE HERE by your team nexus server -->
     <url>http://3.84.4.116:8081/repository/maven-releases/</url>
